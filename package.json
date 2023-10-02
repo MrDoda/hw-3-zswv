@@ -1,0 +1,21 @@
+{
+  "name": "home_work_3",
+  "version": "1.0.0",
+  "description": "Home work for 'Zaklady SW vyvoje'...",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "babel main.js --out-file dist/main.js",
+    "start": "babel-node main.js"
+  },
+  "keywords": [],
+  "author": "Daniel Kral",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3"
+  }
+}
