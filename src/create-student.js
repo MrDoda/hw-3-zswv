@@ -10,7 +10,7 @@ export const createStudent = ({ min, max }) => {
     names[Math.floor(Math.random() * names.length)].name.split(' ')
 
   return {
-    gender: gender[Math.floor(Math.random() * 2)],
+    gender: gender[Math.floor(Math.random() * gender.length)],
     birthdate: getRandomBirthdate(min, max),
     name: randomName[0],
     surname: randomName[1],
