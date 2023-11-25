@@ -1,11 +1,11 @@
-import { names } from './czech-names.js'
-import { getRandomBirthdate } from './get-random-birth-date.js'
+import { names } from './czechNames.js'
+import { getRandomBirthdate } from './getRandomBirthdate.js'
 
 const gender = ['male', 'female']
 
 const workload = [10, 20, 30, 40]
 
-export const createStudent = ({ min, max }) => {
+export const createEmployee = ({ min, max }) => {
   const randomName =
     names[Math.floor(Math.random() * names.length)].name.split(' ')
 
