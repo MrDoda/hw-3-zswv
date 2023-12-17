@@ -1,4 +1,4 @@
-# Základy SW vývoje - úkol 3
+# Základy SW vývoje - úkol 4
 author: Daniel Král
 Javascript ES6+
 
